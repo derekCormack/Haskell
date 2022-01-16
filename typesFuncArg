@@ -1,0 +1,28 @@
+- installation and setup 
+chocolatey
+You can call choco from anywhere, command line or powershell by typing choco.
+Run choco /? for a list of functions.
+You may need to shut down and restart powershell and/or consoles
+ first prior to using choco.
+Ensuring Chocolatey commands are on the path
+Ensuring chocolatey.nupkg is in the lib folder-
+
+
+    Help - choco -? or choco command -?
+    Search - choco search something
+    List - choco list -lo
+    Config - choco config list
+    Install - choco install baretail
+    Pin - choco pin windirstat
+    Outdated - choco outdated
+    Upgrade - choco upgrade baretail
+    Uninstall - choco uninstall baretail
+
+
+Downloading cabal 64 bit
+  from 'https://downloads.haskell.org/cabal/cabal-install-3.6.2.0/cabal-install-3.6.2.0-x86_64-windows.zip'
+Progress: 100% - Completed download of C:\Users\Five\AppData\Local\Temp\chocolatey\cabal\3.6.2.0\cabal-install-3.6.2.0-x86_64-windows.zip (13.28 MB).
+Download of cabal-install-3.6.2.0-x86_64-windows.zip (13.28 MB) completed.
+
+instal process - git repo, chocolatey, via script(cabal-library/prog organiser, GHC(glasgow haskell compliler
+), msys2) (through elevated powershell)
