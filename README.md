@@ -1,1 +1,2 @@
 # Haskell
+# Haskell52Replit
